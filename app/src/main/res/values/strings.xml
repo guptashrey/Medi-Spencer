@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medi-Spencer</string>
+
+    <string name="splash_img_desc">Official Logo</string>
+
+    <string name="signin_patient">Log Into Your Account</string>
+    <string name="signup_in_desc">Your patient account is your portal to all things: your profile, prescriptions and more!</string>
+    <string name="signup_hint_3">Email Address</string>
+    <string name="signup_hint_4">Password</string>
+
+    <string name="signin_button_1">SIGN IN</string>
+    <string name="signin_button_2">Forgot your password?</string>
+
+    <string name="profile">Profile</string>
+    <string name="patient_prescription">Prescriptions</string>
+    <string name="patient_profile_tv1">First Name:</string>
+    <string name="patient_profile_tv2">Last Name:</string>
+    <string name="patient_profile_tv3">Email Address:</string>
+    <string name="patient_profile_tv4">Age:</string>
+    <string name="patient_profile_tv5">Address:</string>
+    <string name="update_profile">Update Profile</string>
+
+    <string name="empty_details">Update Your Info!</string>
+    <string name="img_desc">Prescription</string>
+    <string name="img_desc1">new_photo</string>
+    <string name="img_desc2">QRCode</string>
+    <string name="img_desc3">photo</string>
+</resources>
