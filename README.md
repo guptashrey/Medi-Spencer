@@ -4,3 +4,4 @@ An Android Application used for managing patients and help them get medicines fr
 
 # Screenshot
 <img src="https://github.com/guptashrey/Medi-Spencer/raw/master/Screenshots/device-2018-06-04-133707.png" width="300"/>
+<img src="https://github.com/guptashrey/Medi-Spencer/raw/master/Screenshots/device-2018-06-04-133759.png" width="300"/>
