@@ -1,10 +1,10 @@
 package net.shreygupta.medispencer;
 
 import android.content.Intent;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -36,8 +36,13 @@ public class PatientDetails extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.logout) {
-            signOut();
-            startActivity(new Intent(PatientDetails.this, LoginActivity.class));
+            if (getFragmentManager().getBackStackEntryCount() > 0) {
+                getFragmentManager().popBackStack();
+            } else {
+                super.onBackPressed();
+                signOut();
+                startActivity(new Intent(PatientDetails.this, LoginActivity.class));
+            }
         }
         return super.onOptionsItemSelected(item);
     }

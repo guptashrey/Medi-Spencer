@@ -2,9 +2,9 @@ package net.shreygupta.medispencer;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -92,6 +92,12 @@ public class ShowQRCode extends AppCompatActivity {
 
     private void signOut() {
         mAuth.signOut();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
     }
 
     @Override
